@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .nav-item {
+            padding-left: 200px;
+        }
+
+        .images {
+            display: flex;
+            width: 190px;
+            justify-content: space-between;
+        }
+
+        .rows {
+            display: flex;
+        }
+
+        .demo {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://www.irctctourism.com/assets/img/tourism-logo.webp"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img
+                                src="https://www.irctctourism.com/assets/img/G20-logo.webp" width="60px"
+                                height="60px"></a>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-left:700px; margin-top: 20px;font-size: 1rem;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            CONTACT
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img src="img.jpg" width="30px"
+                                        height="30px">1800110139</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="img.jpg" width="30px"
+                                        height="30px">0755-6698100/40904900</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="img1.jpg" width="30px"
+                                        height="30px">toursim[at]isrctc[dot]com </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="login">
+                    <button class="btn btn-outline-success" type="submit"
+                        style="width: 100px;height: 50px; margin-top: 20px;margin-right: 30px;">login</button>
+                    <img src="https://www.irctctourism.com/assets/img/irctc-logo.webp">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="images">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/W_360x233.webp" class="img-thumbnail"
+            alt="...">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/Tirupati_360x233.webp" class="img-thumbnail"
+            alt="...">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/Antra-River-Sutra.webp"
+            class="img-thumbnail" alt="...">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/N_360x233.webp" class="img-thumbnail"
+            alt="...">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/NE_360x233.webp" class="img-thumbnail"
+            alt="...">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/NRM_360x233.webp" class="img-thumbnail"
+            alt="...">
+        <img src="https://www.irctctourism.com//packageImage/home_page_image/youtube-official-500x303.webp"
+            class="img-thumbnail" alt="...">
+        <img src="https://www.irctctourism.com/packageImage/home_page_image/S_360x233.webp" class="img-thumbnail"
+            alt="...">
+    </div>
+    <div class="row container">
+        <div class="col-md-3" style="margin-top: 30px;">
+            <div class="card mb-3" style="width: 20rem;">
+                <div class="card-body">
+                    <h5 class="card-title"> <u>Filters By Package Type</u></h5>
+                    <form>
+                        <input type="checkbox" value="">
+                        <label>AIR PACKAGE</label><br>
+                        <input type="checkbox" value="">
+                        <label>Land PACKAGE</label><br>
+                        <input type="checkbox" value="">
+                        <label>River PACKAGE</label><br>
+                        <input type="checkbox" value="">
+                        <label>Rail Tour PACKAGE</label>
+                    </form>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 20rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><U>Category</U></h5>
+                    <form>
+                        <input type="checkbox" value="">
+                        <label>Holiday Tour</label><br>
+                        <input type="checkbox" value="">
+                        <label>River Cursie</label><br>
+                        <input type="checkbox" value="">
+                        <label>Coach Tour</label><br>
+                        <input type="checkbox" value="">
+                        <label>Domestic Air Package</label>
+                    </form>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 20rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><u>Origin</u> </h5>
+                    <form>
+                        <input type="checkbox" value="">
+                        <label>Delhi</label> <br>
+                        <input type="checkbox" value="">
+                        <label>Kochi</label><br>
+                        <input type="checkbox" value="">
+                        <label>Kolkata</label><br>
+                        <input type="checkbox" value="">
+                        <label>Bolpur</label><br>
+                        <input type="checkbox" value="">
+                        <label>Puri</label><br>
+                        <input type="checkbox" value="">
+                        <label>Rampur Hat</label>
+                    </form>
+                </div>
+            </div>
+            <div class="container1" style="border: 1px solid;background-color: peru;">
+                <div class="demo">
+                    <img src="https://www.irctctourism.com/assets/img/irctc-logo.webp" width="40px">
+                    <h2 style="font-size: 15px;">BOOKING IRCTC TOURS <br>NOW POCKET FRIENDLY</h2>
+                    <img src="https://www.irctctourism.com/assets/img/tourism-logo.webp" width="50px">
+                </div>
+                <div>
+                    <h5 style="text-align: center;">Avail<br>part payment facility<br>for bookings<br>above $50000</h5>
+                    <h4 style="text-align: center;">OR</h4>
+                    <div style="text-align: center;">Pay in <br>Easy EMI also</div><br>
+                    <div style="text-align: center;">For Details
+                         <button type="button" class="btn btn-warning">CLICK HERE</button></div>
+                </div>
+                  </div>
+              </div>
+        <div class="col-md-9">
+            <div class="container">
+                <div class="row" style="border-radius: 10px; margin-top: 60px;">
+                    <div class="col-md-3">
+                        <img src="https://www.irctctourism.com/packageImage/EHH97/EHH97.jpg" width="100%">
+                    </div>
+                    <div class="col-md-7">
+                        <h3><b>EXOTIC ANDAMAN HOLIDAYS - GOLD</b></h3>
+                        <div>Duration: <span style="color: rgb(14, 14, 92);">Nights 4/5 Days</span> </div>
+                        <div>Package Code: <span style="color:rgb(14, 14, 92);">EHH97</span></div>
+                        <div>Origin: <span style="color:rgb(14, 14, 92);"> PORTBLAIR</span></div>
+                        <div>Destination: <span style="color: rgb(14, 14, 92);">HAVELOCK / PORTBLAIR</span></div>
+                        <div>Departure: <span style="color: rgb(14, 14, 92);">Daily</span></div>
+                        <div>Date Of Journey: <span style="color:rgb(14, 14, 92);">04-NOV-23</span></div>
+                        Inclusions: <img src="https://www.irctctourism.com/assets/img/road-transport.png"> Cab <img
+                            src="https://www.irctctourism.com/assets/img/hotel.png">Hotel<img
+                            src="https://www.irctctourism.com/assets/img/meal.png"> Meal
+                    </div>
+                    <div class="col-md-2" style="background-color: lightgray; padding-top: 40px;">
+                        <div style="font-size: 20px;">Starting From</div>
+                        <div style="font-size: 30px;"> $17600 </div>
+                        <a class="p-1 rounded" href="#simple-list-item-1">VIEW DETAILS</a><br>
+                        <button type="button" class="btn btn-warning" style="border-radius: 0%;">Book Now</button>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px; border-radius: 10px;">
+                    <div class="col-md-3">
+                        <img src="https://www.irctctourism.com/packageImage/EHH96/EHH96.jpg" width="100%">
+                    </div>
+                    <div class="col-md-7">
+                        <h3><b>FAMILY ANDAMAN HOLIDAYS-GOLD</b></h3>
+                        <div>Duration: <span style="color: rgb(14, 14, 92);">Nights 5/6 Days</span> </div>
+                        <div>Package Code: <span style="color:rgb(14, 14, 92);">EHH99</span></div>
+                        <div>Origin: <span style="color:rgb(14, 14, 92);"> PORTBLAIR</span></div>
+                        <div>Destination: <span style="color: rgb(14, 14, 92);">HAVELOCK / PORTBLAIR/NEIL</span></div>
+                        <div>Departure: <span style="color: rgb(14, 14, 92);">Daily</span></div>
+                        <div>Date Of Journey: <span style="color:rgb(14, 14, 92);">04-NOV-23</span></div>
+                        Inclusions: <img src="https://www.irctctourism.com/assets/img/road-transport.png"> Cab <img
+                            src="https://www.irctctourism.com/assets/img/hotel.png">Hotel<img
+                            src="https://www.irctctourism.com/assets/img/meal.png"> Meal
+                    </div>
+                    <div class="col-md-2" style="background-color: lightgray; padding-top: 40px;">
+                        <div style="font-size: 20px;">Starting From</div>
+                        <div style="font-size: 30px;"> $23900 </div>
+                        <a class="p-1 rounded" href="#simple-list-item-1">VIEW DETAILS</a><br>
+                        <button type="button" class="btn btn-warning" style="border-radius: 0%;">Book Now</button>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px; border-radius: 10px;">
+                    <div class="col-md-3">
+                        <img src="https://www.irctctourism.com/packageImage/EHH125/EHH125.jpg" width="100%">
+                    </div>
+                    <div class="col-md-7">
+                        <h3><b>THRILLING ANDAMAN HOLIDAY GOLD</b></h3>
+                        <div>Duration: <span style="color: rgb(14, 14, 92);">Nights 5/6 Days</span> </div>
+                        <div>Package Code: <span style="color:rgb(14, 14, 92);">EHH125</span></div>
+                        <div>Origin: <span style="color:rgb(14, 14, 92);"> PORTBLAIR</span></div>
+                        <div>Destination: <span style="color: rgb(14, 14, 92);">HAVELOCK / PORTBLAIR/NEIL</span></div>
+                        <div>Departure: <span style="color: rgb(14, 14, 92);">Daily</span></div>
+                        <div>Date Of Journey: <span style="color:rgb(14, 14, 92);">04-NOV-23</span></div>
+                        Inclusions: <img src="https://www.irctctourism.com/assets/img/road-transport.png"> Cab <img
+                            src="https://www.irctctourism.com/assets/img/hotel.png">Hotel<img
+                            src="https://www.irctctourism.com/assets/img/meal.png"> Meal
+                    </div>
+                    <div class="col-md-2" style="background-color: lightgray; padding-top: 40px;">
+                        <div style="font-size: 20px;">Starting From</div>
+                        <div style="font-size: 30px;"> $25500</div>
+                        <a class="p-1 rounded" href="#simple-list-item-1">VIEW DETAILS</a><br>
+                        <button type="button" class="btn btn-warning" style="border-radius: 0%;">Book Now</button>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px; border-radius: 10px;">
+                    <div class="col-md-3">
+                        <img src="https://www.irctctourism.com/packageImage/SCBH01/SCBH01.jpg" width="100%">
+                    </div>
+                    <div class="col-md-7">
+                        <h3><b>PURI - A TOURIST PARADISE EX - PURI</b></h3>
+                        <div>Duration: <span style="color: rgb(14, 14, 92);">Nights 1/2 Days</span> </div>
+                        <div>Package Code: <span style="color:rgb(14, 14, 92);">SCBHO1</span></div>
+                        <div>Origin: <span style="color:rgb(14, 14, 92);"> PURI</span></div>
+                        <div>Destination: <span style="color: rgb(14, 14, 92);">CHILIAKA LAKE/PURI/KONARK</span></div>
+                        <div>Departure: <span style="color: rgb(14, 14, 92);">Daily</span></div>
+                        <div>Date Of Journey: <span style="color:rgb(14, 14, 92);">04-NOV-23</span></div>
+                        Inclusions: <img src="https://www.irctctourism.com/assets/img/road-transport.png"> Cab <img
+                            src="https://www.irctctourism.com/assets/img/hotel.png">Hotel<img
+                            src="https://www.irctctourism.com/assets/img/meal.png"> Meal
+                    </div>
+                    <div class="col-md-2" style="background-color: lightgray; padding-top: 40px;">
+                        <div style="font-size: 20px;">Starting From</div>
+                        <div style="font-size: 30px;"> $6160 </div>
+                        <a class="p-1 rounded" href="#simple-list-item-1">VIEW DETAILS</a><br>
+                        <button type="button" class="btn btn-warning" style="border-radius: 0%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
